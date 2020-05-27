@@ -21,6 +21,10 @@
   color: #2c3e50;
 }
 
+#myLogo {
+  margin-top: 20px;
+}
+
 #myLogo h1 {
   color: #749799;
   font-family: 'Montserrat', sans-serif;

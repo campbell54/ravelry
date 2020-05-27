@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Patterns from '../views/Patterns.vue'
 import Pattern from '../views/Pattern.vue'
+import Create from '../views/Create.vue'
 
 Vue.use(VueRouter)
 
@@ -28,6 +29,11 @@ const routes = [
     path: '/currentPattern',
     name: 'Current Pattern',
     component: () => import(/* webpackChunkName: "about" */ '../views/CurrentProject.vue')
+  },
+  {
+    path: '/create',
+    name: 'Create',
+    component: Create
   }
 ]
 
